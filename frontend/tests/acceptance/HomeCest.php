@@ -10,7 +10,7 @@ class HomeCest
     public function checkHome(AcceptanceTester $I)
     {
         $I->amOnRoute(Url::toRoute('/site/index'));
-        $I->see('My Application');
+        $I->see('Portal Crédito');
 
         $I->seeLink('About');
         $I->click('About');

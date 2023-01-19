@@ -26,15 +26,39 @@ $this->title = 'Morabi';
 <div class="site-index">
     <div class="p-5 mb-4 bg-transparent rounded-3">
         <div class="card-body">
-                                    <div class="text-left" style="padding-left: 35%;">
-                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;"
-                                            src="img/cropped-Logo_Morabi-Cooperativa-Finalissima.png" alt="...">
-                                    </div>
-                                </div>
+            <div class="text-left" style="padding-left: 35%;">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;"
+                        src="img/cropped-Logo_Morabi-Cooperativa-Finalissima.png" alt="...">
+                </div>
+            </div>
         <div class="container-fluid py-1 text-center">
             <h3 class="display-4"><b>Gestão Serviços Créditos</b></h3>
-            <p><a class="btn-circle btn-lg btn-warning" style="width: 30px; height: 30px;" href="/"><i class="fa-sharp fa-solid fa-circle"></i></a>Portal</p>
+        
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-duotone fa-house-chimney"></i>Inicio</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/"><i class="fas fa-circle text-warning"></i>Portal</a>
+                </p>
+            </li>         
+        </ul>
         </div>
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Solicitação de  crédito</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Informações dos meus pedidos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contratos  assinados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Dados estatísticos</a>
+            </li>
+        </ul>
     </div>
 
     <div class="body-content">
@@ -204,7 +228,7 @@ $this->title = 'Morabi';
                             </div>
 
                         </div>
-                        </div>
+                </div>
 
     </div>
 </div>

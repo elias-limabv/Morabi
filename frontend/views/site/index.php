@@ -32,7 +32,10 @@ $this->title = 'Morabi';
                 </div>
             </div>
         <div class="container-fluid py-1 text-center">
-            <h3 class="display-4"><b>Gestão Serviços Créditos</b></h3>
+            <div class="col-auto">
+                <h3 class="display-4">Gestão Serviços Créditos<i class="fas fa-duotone fa-hand-holding-dollar"></i></h3>
+                <i class="fa-duotone fa-hand-holding-dollar"></i>
+            </div>
         
         <ul class="nav justify-content-center">
             <li class="nav-item">
